@@ -6,7 +6,9 @@ pipeline {
 
     stages {
 
-      stage ('code check')
+      stage ('code check') {
+
+      }
     }
 
    post {
