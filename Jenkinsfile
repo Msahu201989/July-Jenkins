@@ -1,15 +1,16 @@
 pipeline {
 
  agent {
-     node { label 'Workstation' }
+    node { label 'Workstation' }
+ }
+
+ stages {
+
+  stage ('code quality') {
+    steps {
+     echo 'code quality'
     }
-
-    stages {
-
-      stage ('code check') {
-
-      }
-    }
+  }
 
    post {
      always{
