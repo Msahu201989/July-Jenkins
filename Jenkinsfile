@@ -11,6 +11,7 @@ pipeline {
      echo 'code quality'
     }
   }
+  }
 
    post {
         always {
